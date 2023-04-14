@@ -7,4 +7,5 @@ public class School {
     void test(){
         System.out.println("Annual exam");
     }
+    
 }
