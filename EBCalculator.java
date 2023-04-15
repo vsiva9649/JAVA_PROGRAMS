@@ -23,5 +23,4 @@ class EBCalculator
 		// System.out.println("hello");
 
 	}
-	
 }

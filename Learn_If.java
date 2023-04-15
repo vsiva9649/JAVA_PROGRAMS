@@ -17,5 +17,6 @@ public class Learn_If {
     else{
         System.out.println("vk and msd both are same :\t"+(vk+msd));
     }
+    
     }
 }
