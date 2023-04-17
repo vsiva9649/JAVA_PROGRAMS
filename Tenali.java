@@ -9,11 +9,12 @@ public class Tenali {
     }
 
     void print_1() {
-        System.out.print(1+" ");
-        System.out.print(1+" ");
-        System.out.print(1+" ");
-        System.out.print(1+" ");
-        System.out.print(1+" ");
+        int count = 2;
+        while (count<=10) {
+            System.out.println(count);
+            count= count+2;
+            
+        }
     }
 
     void find_flowers(int temples) {
