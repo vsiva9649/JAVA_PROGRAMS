@@ -3,8 +3,8 @@ public class LogicalPrograms {
         LogicalPrograms lp = new LogicalPrograms();   
         // lp.find_divisors(100);  
         // lp.find_count_of_divisors(120);
-        // lp.find_Prime(131);
-        lp.find_multiple(2,1);
+         lp.find_Prime(8);
+        // lp.find_multiple(2,1);
     }
 
     private void find_multiple(int no1, int no2) {
@@ -56,6 +56,6 @@ public class LogicalPrograms {
             }
             div= div+1;
         }
-        // System.out.println("total divisors count :"+count);
+        
     }
 }
