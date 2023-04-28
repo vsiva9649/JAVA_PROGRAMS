@@ -27,9 +27,9 @@ public class LoopingPrograms {
         // lp.Prime_Number(10);
         // lp.Reverse_Printing_a_number(1234);
         // lp.Count_of_Digits(12345);
-        lp.Sum_of_Digits(1234);
+        // lp.Sum_of_Digits(1234);
         // lp.Reverse_the_number(123);
-        // lp.Palindrome(11);
+         lp.Palindrome(11);
         
 
     }
