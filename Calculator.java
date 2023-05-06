@@ -12,8 +12,12 @@ class Calculator
  	Calculator calc=new Calculator();
 	calc.add();
 	calc.sub();
-	calc.multiply(10,20);
+	calc.multiply(10,"siva");
 	calc.div();
+	}
+	private void multiply(int no1, String string) {
+	}
+	private void multiply(int no1) {
 	}
 	void div() {
 		a = 40;

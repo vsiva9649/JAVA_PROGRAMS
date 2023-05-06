@@ -13,9 +13,9 @@ public class Loop {
 //		II.find_least_common_multiple(4,10);
 //		II.Learn_while_break();
 		int no=5;
-		while(no<=5) {
-		II.find_factorial();
-		no--;
+		while(no>=1) { //5>=1,4>=1, 3>=1,2,1
+		II.find_factorial(); 
+		no--;//4,3,2,1
 		}
 //		II.print_1_10();
 	}
@@ -34,13 +34,14 @@ public class Loop {
 
 	private void find_factorial() {
 		// TODO Auto-generated method stub
-		int fact = 1;
-		int no=5;
-		while(no>=1) {
-			fact = fact * no;
-			no--;
+		int fact = 1;// mul
+		int no=5;// input 3=1*3=3,3*2=6
+		while(no>=1) { //5>=1,4,3
+			fact = fact * no;//1*5=5*4=20*3=60*2=120;1*4=4,4*2=8*3=24*4=96
+			//3*2=6,6*3=18;2*2=4
+			no--;//5-1=4;3,
 		}
-		System.out.println(fact);
+		System.out.println(no+"! = "+fact);//5!=120,4!=96,3!=6,2!=4,1!=1
 		
 	}
 
