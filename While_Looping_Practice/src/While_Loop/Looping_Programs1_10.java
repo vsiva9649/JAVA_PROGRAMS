@@ -13,7 +13,7 @@ public class Looping_Programs1_10 {
 //		lp.Divisors_of_given_number();                            
 //		lp.Count_of_Divisors_of_given_number();                         
 //		lp.Prime_Number();                                              
-		lp.Reverse_Printing_a_number(); 
+//		lp.Reverse_Printing_a_number(); 
 
 	}
 

@@ -5,7 +5,7 @@ public class Looping_Programs11_20 {
 		Looping_Programs11_20 lp = new Looping_Programs11_20();
 //		lp.Count_of_Digits(123456);
 //		lp.Sum_of_Digits(12345);                                               
-//		lp.Reverse_the_number(1234);//                                          
+		lp.Reverse_the_number(1234);//                                          
 //		lp.Palindrome(121);//                                                 
 //		lp.Armstrong_Number(153);//                                               
 //		lp.Neon_Number(9);//                                           
