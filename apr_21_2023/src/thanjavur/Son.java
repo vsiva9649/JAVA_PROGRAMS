@@ -22,11 +22,10 @@ public class Son extends Father {
 // 		System.out.println(f.age);
 // 		s.work();
 
-// 	}
-	
-// 	void work() {
-// 		System.out.println(this.age);
-// 		System.out.println(super.age);
-// 	}
+ 	}
+	 	void work() {
+ 		System.out.println(this.age);
+ 		System.out.println(super.age);
+ 	}
 
-// }
+ }

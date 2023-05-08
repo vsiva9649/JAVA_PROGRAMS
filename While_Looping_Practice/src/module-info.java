@@ -5,5 +5,5 @@
  * @author siva
  *
  */
-module For_looping_Practice {
+module While_Looping_Practice {
 }

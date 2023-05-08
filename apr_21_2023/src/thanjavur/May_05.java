@@ -1,3 +1,5 @@
+package thanjavur;
+
 public class May_05 {
     public static void main(String[] args) {
         May_05 lp = new May_05();
