@@ -5,14 +5,17 @@ public class Looping_Programs11_20 {
 		Looping_Programs11_20 lp = new Looping_Programs11_20();
 //		lp.Count_of_Digits(123456);
 //		lp.Sum_of_Digits(12345);                                               
-		lp.Reverse_the_number(1234);//                                          
+//		lp.Reverse_the_number(1234);//                                          
 //		lp.Palindrome(121);//                                                 
-//		lp.Armstrong_Number(153);//                                               
+//		lp.Armstrong_Number(153);//  Armstrong number program transfered to new class                                              
 //		lp.Neon_Number(9);//                                           
-//		lp.Strong_Number(); //                                          
+//		lp.Strong_Number(); // Strong number program transfered to new class                                         
 //		lp.Addition_of_first_n_numbers(); //                              
-//		lp.Factorial(4); //                                                  
+		lp.Factorial(4); //                                                  
 //		lp.Greatest_Common_Divisor(); //
+	}
+
+	private void Strong_Number() {
 	}
 
 	private void Factorial(int fact) {
