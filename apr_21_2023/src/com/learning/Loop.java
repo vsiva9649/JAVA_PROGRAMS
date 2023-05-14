@@ -1,23 +1,17 @@
 package com.learning;
 
-public class Loop {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Loop II = new Loop();
-//		II.print_11111();
-//		II.print_first_10_even_no();
-//		II.multiples_of_first_5_no(1);
-//		II.find_common_divisors(100,200);
-//		II.find_greatest_common_divisor(100,120);
+	//	II.print_11111();
+	//	II.print_first_10_even_no();
+	//	II.multiples_of_first_5_no(1);
+	//	II.find_common_divisors(100,200);
+	//	II.find_greatest_common_divisor(100,120);
 //		II.find_least_common_multiple(4,10);
 //		II.Learn_while_break();
-		int no=5;
-		while(no>=1) { //5>=1,4>=1, 3>=1,2,1
+		
 		II.find_factorial(); 
-		no--;//4,3,2,1
-		}
-//		II.print_1_10();
 	}
 
 	private void print_1_10() {
@@ -34,17 +28,17 @@ public class Loop {
 
 	private void find_factorial() {
 		// TODO Auto-generated method stub
-		int fact = 1;// mul
-		int no=5;// input 3=1*3=3,3*2=6
-		while(no>=1) { //5>=1,4,3
-			fact = fact * no;//1*5=5*4=20*3=60*2=120;1*4=4,4*2=8*3=24*4=96
-			//3*2=6,6*3=18;2*2=4
-			no--;//5-1=4;3,
+		for(int j= 5;j>=1;j--) {
+			int fact = 1;
+		for(int i=j;i>=1;i--) {
+			fact=fact*i;
+			
 		}
-		System.out.println(no+"! = "+fact);//5!=120,4!=96,3!=6,2!=4,1!=1
+		System.out.println(j+"!= "+fact);
+		
+		}
 		
 	}
-
 	private void Learn_while_break() {
 		// TODO Auto-generated method stub
 		int no1=  10;
@@ -116,7 +110,7 @@ public class Loop {
 		int box=1;
 		while(no<=5) {
 			box=box*no;
-			System.out.println(no);
+			System.out.println(box);
 			no++;
 		}
 	}
@@ -134,7 +128,7 @@ public class Loop {
 		// TODO Auto-generated method stub
 		int no=1;
 		while(no<=5) {
-			System.out.println(1+" ");
+			System.out.print(1+" ");
 			no++;
 		}
 	}
