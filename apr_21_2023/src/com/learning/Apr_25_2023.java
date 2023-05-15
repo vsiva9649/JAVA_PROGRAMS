@@ -7,10 +7,10 @@ public class Apr_25_2023 {
 		Apr_25_2023 lp = new Apr_25_2023();
 //		lp.find_divisors();
 //		lp.find_common_divisors();
-//	lp.find_GCD(12,15); // smallnumber
+	lp.find_GCD(12,15); // smallnumber
 //		lp.find_multiple();
 //		lp.find_common_multiple(3,9);
-		lp.find_common_multiple2(4,10);
+		// lp.find_common_multiple2(4,10);
 		
 		
 

@@ -11,12 +11,22 @@ public class Looping_Programs11_20 {
 //		lp.Neon_Number(9);//                                           
 //		lp.Strong_Number(); // Strong number program transfered to new class                                         
 //		lp.Addition_of_first_n_numbers(); //                              
-		lp.Factorial(4); //                                                  
-//		lp.Greatest_Common_Divisor(); //
+		// lp.Factorial(4); //                                                  
+		lp.GCD(12,15); //GREATEST_COMMON_DIVISOR:
 	}
 
-	private void Strong_Number() {
+	private void GCD(int no1,int no2) {
+		int div=2,gcd=0;
+		int small = no1<no2?no1:no2;
+		for(;div<small;div++) {
+			if (no1%div==0 && no2%div==0) {
+				gcd=div;
+			}
+		}
+		System.out.println("Greatest_common_Divisor is : "+gcd);
 	}
+
+	
 
 	private void Factorial(int fact) {
 		// TODO Auto-generated method stub
