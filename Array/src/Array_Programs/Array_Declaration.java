@@ -8,14 +8,15 @@ public class Array_Declaration {
 /**
  * 1) Array Declaration :
  * 
+ * 
  * int[] marks = {10,20,30};
  * int[] marks = new int[3];
 
 
-
+	2) Printing Array
  */
 		
-//		2) Printing Array
+//		
 		
 		Array_Declaration ad = new Array_Declaration();
 		ad.Printing_Array();
