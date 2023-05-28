@@ -24,7 +24,8 @@ public class Calculator {
 		System.out.print("num2 : ");
 		c.num2=sc.nextDouble();
 		// Step-2 ( showing and select any one options )
-		    System.out.println("Select an operation:");
+		do{
+		    System.out.println("Select an operation");
 	        System.out.println("1. Addition");
 	        System.out.println("2. Subtraction");
 	        System.out.println("3. Multiplication");
@@ -32,59 +33,58 @@ public class Calculator {
 
 	        System.out.print("Enter your choice (1-4): ");
 	        int choice = sc.nextInt();		
+	        System.out.println();
 	    // Step -3 ( Calculation Process)
 	      double result= c.Calculation(choice);
 	    //Step -4 (Rotate method calling)
-	        while(true) {
+	      	System.out.println();
 	        System.out.println("Do you want to Continue ?");
 	        System.out.println("Yes~y"+"\t"+"No~n");
 	        
 	        String useropt = sc.next();
-//	        System.out.println(useropt);
 	        if(useropt.equalsIgnoreCase("Y")) {
-	        	c.Calculation(choice);
-	        	System.out.println("Result value is Assigned to num1 value:"+result);
+	        	System.out.println("Result value is : "+result);
+	        	System.out.println("num1 : "+result);
+	        	c.num1=result;
+	        	System.out.println("Enter num2 value :");
+	        	c.num2=sc.nextDouble();
+
 	        }
-		        
 		        else if(useropt.equalsIgnoreCase("N")) 
 		        {
 	        	System.out.println("THANK YOU !!!");
-	        	System.out.println("For Using My Calculator.");
+	        	System.out.println("For Using (Hema,Ashwini,AmalRaj,Siva) Team Calculator.");
 	        	break;
 	        	}
 		        else {
 		        	System.out.println("Try Again with (Y/N) only !");
 		        }
-	        }
+		}while(true);
 	        
-	        
-	        
-	     
-	        
-
 
 	}
 
+	
 	private double Calculation(int choice) {
 		// TODO Auto-generated method stub
 		 switch (choice) {
 		 
          case 1:
              result = num1 + num2;
-             System.out.println("Result: " +(int)(double)result);
+             System.out.println("The Addition of Given numbers : "+num1+"+"+num2+" = " +(int)result);
              break;
          case 2:
              result = num1 - num2;
-             System.out.println("Result: " +(int)(double)result);
+             System.out.println("The Subtraction Result : "+num1+"-"+num2+" = " +(int)result);
              break;
          case 3:
              result = num1 * num2;
-             System.out.println("Result: " + result);
+             System.out.println("Multiplication Result : "+num1+"*"+num2+" = " + result);
              break;
          case 4:
          	if (num2 != 0) {
                  result = num1 / num2;
-                 System.out.println("Result: " + result);
+                 System.out.println("Division Result : "+num1+"/"+num2+" = " + result);
              } else {
                  System.out.println("Error: Cannot divide by zero.");
              }

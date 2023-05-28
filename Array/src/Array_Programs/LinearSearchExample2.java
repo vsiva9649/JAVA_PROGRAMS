@@ -6,6 +6,9 @@ class LinearSearchExample2
 {  
   public static void main(String args[])  
   {  
+	  
+//	  4) Linear Search
+	  
     int c, n, search, array[];  
    
     Scanner in = new Scanner(System.in);  

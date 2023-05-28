@@ -10,9 +10,10 @@ public class Child extends Parent {
 //		ch.receive();
 		//Dynamic Binding
 		Parent pa = new Child(); 
-//		pa.cook();
+		pa.cook();
 		pa.receive();
-		ch.develop_java_applications();
+		pa.sleep();
+//		ch.develop_java_applications();
 
 	}
 	public void develop_java_applications()
@@ -23,6 +24,11 @@ public class Child extends Parent {
 	{System.out.println("Taking Care "
 				+ "of Relatives and friends");
 //	super.receive();
+	}
+	@Override
+	void sleep() {
+		// TODO Auto-generated method stub
+		System.out.println("Sleept at 11.am");
 	}
 
 }

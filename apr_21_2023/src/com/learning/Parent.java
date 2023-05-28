@@ -1,6 +1,6 @@
 package com.learning;
 
-public class Parent {
+public abstract class Parent {
 	final int balance = 100000;
 
 	protected void receive()
@@ -18,5 +18,6 @@ public class Parent {
 		{
 				
 		}
+	abstract void sleep();
 
 }

@@ -14,7 +14,7 @@ public class ArrayDemo {
 //		ad.task2(); //Bus story Find_(savings and profits).
 //		ad.task3(); //Find out Youtube Avg.timeing
 //		ad.task4(); //Ipl Team (Harthick pandia) => avg findout pananum(batblowranrate||etc..)
-//		ad.task5(); // (Find out elder age Cricket)
+		ad.task5(); // (Find out elder age Cricket)
 		
 		
 		
@@ -56,14 +56,14 @@ public class ArrayDemo {
         "Ravindra Jadeja"}; 
 		int index_h = 0; 
 
-		int highest = age[0]; //highest = 96
+		int highest = age[0]; //highest = 35
 		int i=0; 
-		while(i<age.length)
+		while(i<age.length)//0<5,1<5
 		{
-		  if(age[i]>highest)
+		  if(age[i]>highest)//35>35,36>35
 		  {
-		    highest = age[i];
-		    index_h=i;
+		    highest = age[i];//36
+		    index_h=i;//
 		    
 		  }
 		  i++;

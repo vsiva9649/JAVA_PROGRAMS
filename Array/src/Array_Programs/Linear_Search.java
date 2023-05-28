@@ -4,7 +4,7 @@ public class Linear_Search {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+//		 4) Linear Search
 		Linear_Search ls = new Linear_Search();
 		
 		int[] a1= {10,20,30,40,50,70,90};
