@@ -6,7 +6,7 @@ public class pattern_22_05_23 {
 		// TODO Auto-generated method stub
 		
 		pattern_22_05_23 p = new pattern_22_05_23();
-//		p.pattern1();
+		p.pattern1();
 //		p.pattern2();
 //		p.pattern_c();
 //		p.pattern_E();
@@ -15,7 +15,7 @@ public class pattern_22_05_23 {
 //		p.pattern_B();
 //		p.pattern_T();
 //		p.pattern_Z();
-		p.pattern_R();
+//		p.pattern_R();
 
 	}
 
