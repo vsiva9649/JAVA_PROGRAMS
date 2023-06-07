@@ -28,9 +28,10 @@ public class ExceptionDemo {
 		try {
 		      System.out.println(no1/no2);
 		    }
-		    catch(ArithmeticException praveen)
+		    catch(ArithmeticException p)
 		    {
 		      System.out.println("Check no2");
+		      p.printStackTrace();
 		    }	
 		catch (Exception e) {
 			System.out.println(" Something went wrong");
