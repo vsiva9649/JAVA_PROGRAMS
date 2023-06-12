@@ -8,13 +8,13 @@ public class ArrayDemo {
 //	    ad.learn_array1();
 //	    ad.learn_array2();
 //		ad.calculate_percentage();
-//		ad.find_highest();
+		ad.find_highest();
 //		ad.mark();//task1 = (mark task)
 		
 //		ad.task2(); //Bus story Find_(savings and profits).
 //		ad.task3(); //Find out Youtube Avg.timeing
 //		ad.task4(); //Ipl Team (Harthick pandia) => avg findout pananum(batblowranrate||etc..)
-		ad.task5(); // (Find out elder age Cricket)
+//		ad.task5(); // (Find out elder age Cricket)
 		
 		
 		
