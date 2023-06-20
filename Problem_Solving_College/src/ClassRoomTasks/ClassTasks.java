@@ -18,7 +18,14 @@ public class ClassTasks {
 
 	private void Task2() {
 		// TODO Auto-generated method stub
-		
+		int c[]= {1,0,2};
+		int candy[]= new int[c.length];
+		for(int i=0;i<c.length;i++) {
+			if(c[i]>c[i+1]) {
+				candy[0]=2;
+				
+			}
+		}
 		
 		
 	}

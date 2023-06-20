@@ -1,6 +1,8 @@
 package com.learning;
 
 public class Loptop {
+	
+	
 	int ram = 4;
 	int harddisk=500;
 	void playgames() {
