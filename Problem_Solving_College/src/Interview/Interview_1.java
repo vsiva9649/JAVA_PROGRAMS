@@ -20,11 +20,12 @@ public class Interview_1 {
 		        count++; 
 		      }
 		    }
-		    if(a[i]!=-1){
+		    if(a[i]!=2)
+		    {
 		      a[i] = count;
 		    }
 		    if(a[i]>0) {
-		    	if(a[i]%2!=0)
+		    	if(a[i]%2==0)//c=1,2%2==0
 		    System.out.println(ch + " appears for " + a[i] +" times");
 		    } 
 		}
