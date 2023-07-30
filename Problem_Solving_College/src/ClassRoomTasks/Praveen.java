@@ -11,7 +11,6 @@ public class Praveen {
 		//p.swap();//with variable
 		//p.swapwithout();
 		//p.primeornot();
-		
 	}
 
 	private void primeornot() {
