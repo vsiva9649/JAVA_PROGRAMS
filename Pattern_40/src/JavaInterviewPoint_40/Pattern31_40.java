@@ -118,7 +118,7 @@ E E E E E
     A B 
      A
 		 */
-//		p.pattern39();
+		p.pattern39();
 		
 		/**
 		 * 
@@ -137,8 +137,75 @@ E E E E E
 
 	}
 
+	private void pattern39() {
+		// TODO Auto-generated method stub
+		int alpha=64;
+		for(int row=1;row<=5;row++) {
+		      for(int space=5;space>row;space--) {
+		        System.out.print(" ");
+		      }
+		      for(int col=1;col<=row;col++) {
+		        System.out.print((char)(alpha+col)+" ");
+		      }
+		      System.out.println();
+		    }
+		    for(int row=4;row>=1;row--) {
+		      for(int space=5;space>row;space--) {
+		        System.out.print(" ");
+		      }
+		      for(int col=1;col<=row;col++) {
+		        System.out.print((char)(alpha+col)+" ");
+		      }
+		      System.out.println();
+		    }
+		
+	}
+
+	private void pattern40() {
+		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++) {
+		      for(int space=5;space>row;space--) 
+		      {
+		        System.out.print("  ");
+		      }
+		      for(int col=1;col<=(row*2)-1;col++) {
+		        System.out.print("* ");
+		      }
+		      
+		    
+		      System.out.println();
+		    }
+		    for(int row=4;row>=1;row--) {
+		      for(int space=5;space>row;space--) {
+		        System.out.print("  ");
+		      }
+		      for(int col=1;col<=(row*2)-1;col++) {
+		        System.out.print("* ");
+		      }
+		      System.out.println();
+		    }
+	}
+
 	private void pattern38() {
 		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++) {
+		      for(int space=5;space>row;space--) {
+		        System.out.print(" ");
+		      }
+		      for(int col=1;col<=row;col++) {
+		        System.out.print(col+" ");
+		      }
+		      System.out.println();
+		    }
+		    for(int row=4;row>=1;row--) {
+		      for(int space=5;space>row;space--) {
+		        System.out.print(" ");
+		      }
+		      for(int col=1;col<=row;col++) {
+		        System.out.print(col+" ");
+		      }
+		      System.out.println();
+		    }
 		
 	}
 
