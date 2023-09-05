@@ -12,9 +12,10 @@ public class Practice_20_05_23 {
 //		p.pattern_3();
 //		p.pattern_4();
 //		p.pattern_5();
-		p.pattern_6();
+//		p.pattern_6();
 //		p.pattern_7();
 //		p.pattern_8();
+		p.pattern_9();
 		
 /**
  * 
@@ -75,6 +76,20 @@ pattern_8()
 		
 		
 
+	}
+
+	private void pattern_9() {
+		// TODO Auto-generated method stub
+		for (int i = 5; i >=1; i--) {
+			for (int j = 5; j >i; j--) {
+				System.out.print("* ");
+			}
+			for (int no = 1; no <=i; no++) {
+				System.out.print(no+" ");
+			}
+			System.out.println();
+		}
+		
 	}
 
 	private void pattern_8() {
