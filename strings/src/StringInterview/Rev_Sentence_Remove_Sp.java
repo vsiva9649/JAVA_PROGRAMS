@@ -1,5 +1,6 @@
 package StringInterview;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Rev_Sentence_Remove_Sp {
@@ -14,6 +15,18 @@ public class Rev_Sentence_Remove_Sp {
 		System.out.println("Sample input is :\n"+input);
 //		l.RemoveSpace();
 //		l.ReverseSentence();
+		int len=0;
+		char[] c = input.toCharArray();
+		for (char d : c) {
+			len++;
+		}		
+		System.out.println(len);
+		String s="";
+		boolean b=false;
+		for (int i = 0; i < len; i++) {
+			char d = c[i];
+			System.out.print(d);
+		}
 
 	}
 
